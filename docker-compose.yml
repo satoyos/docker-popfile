@@ -1,0 +1,8 @@
+version: '3'
+services:
+  popfile:
+    build: .
+    volumes:
+      - ./popfile_data:/var/lib/popfile
+    ports:
+      - "2980:2980"
