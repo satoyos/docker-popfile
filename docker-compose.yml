@@ -5,4 +5,4 @@ services:
     volumes:
       - ./popfile_data:/var/lib/popfile
     ports:
-      - "2980:2980"
+      - "8080:8080"
