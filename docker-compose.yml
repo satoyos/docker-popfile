@@ -6,3 +6,5 @@ services:
       - ./popfile_data:/var/lib/popfile
     ports:
       - "8080:8080"
+    command: sh /usr/share/popfile/start_popfile.sh
+
